@@ -1,6 +1,7 @@
 import React from "react";
 import heroImage from "../../../assets/images/chair.png";
 import bgImage from "../../../assets/images/bg.png"
+import PrimaryButton from "../../../components/PrimaryButton/PrimaryButton";
 const Banner = () => {
   return (
     <div className="hero lg:py-20 sm:py-10" style={{backgroundImage: `url(${bgImage})`}}>
@@ -17,7 +18,7 @@ const Banner = () => {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button className="btn btn-primary bg-gradient-to-r from-primary to-secondary text-white px-5 font-semibold">Get Started</button>
+          <PrimaryButton>Getting Started</PrimaryButton>
         </div>
       </div>
     </div>
