@@ -27,6 +27,8 @@ const AvailableAppointment = ({ selectedDate }) => {
             appointmentOption={option}
           ></AppointmentOption>
         ))}
+
+        
       </div>
       {
         treatment && 
